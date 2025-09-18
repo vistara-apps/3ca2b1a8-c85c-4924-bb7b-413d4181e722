@@ -65,7 +65,7 @@ export function PostErrandModal({ isOpen, onClose, onSubmit }: PostErrandModalPr
             variant="textarea"
             placeholder="e.g., Pick up coffee from downtown cafe"
             value={description}
-            onChange={(e) => setDescription((e.target as HTMLTextAreaElement).value)}
+            onChange={(e: React.ChangeEvent<HTMLTextAreaElement>) => setDescription(e.target.value)}
             required
           />
 
@@ -76,7 +76,7 @@ export function PostErrandModal({ isOpen, onClose, onSubmit }: PostErrandModalPr
             min="0.001"
             placeholder="0.005"
             value={paymentAmount}
-            onChange={(e) => setPaymentAmount((e.target as HTMLInputElement).value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPaymentAmount(e.target.value)}
             required
           />
 
@@ -84,7 +84,7 @@ export function PostErrandModal({ isOpen, onClose, onSubmit }: PostErrandModalPr
             label="Location"
             placeholder="e.g., Downtown, Park District"
             value={location}
-            onChange={(e) => setLocation((e.target as HTMLInputElement).value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLocation(e.target.value)}
             required
           />
 
