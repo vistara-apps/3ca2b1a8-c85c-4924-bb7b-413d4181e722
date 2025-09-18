@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "Errandly",
+    "subtitle": "Built with Zara",
+    "description": "Errandly is a Base Mini App built with Zara.",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://3ca2b1a8c85c4924bb7b413d4181e722-4x9t.vercel.app",
+    "splashImageUrl": "https://3ca2b1a8c85c4924bb7b413d4181e722-4x9t.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "heroImageUrl": "https://3ca2b1a8c85c4924bb7b413d4181e722-4x9t.vercel.app/image.png",
+    "tagline": "Errandly",
+    "screenshotUrls": [
+      "https://3ca2b1a8c85c4924bb7b413d4181e722-4x9t.vercel.app/screenshot.png",
+      "https://3ca2b1a8c85c4924bb7b413d4181e722-4x9t.vercel.app/screenshot.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "webhookUrl": "https://3ca2b1a8c85c4924bb7b413d4181e722-4x9t.vercel.app/api/webhook"
+  }
+}

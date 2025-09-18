@@ -1,0 +1,14 @@
+{
+  "name": "Errandly",
+  "description": "Errandly is a Base Mini App built with Zara.",
+  "image": "https://dummyimage.com/1200x628/0a0b0d/ffffff.png&text=OG",
+  "external_url": "https://3ca2b1a8-c85c-4924-bb7b-413d4181e722.vercel.app",
+  "properties": {
+    "app": {
+      "name": "Errandly",
+      "description": "Errandly is a Base Mini App built with Zara.",
+      "url": "https://3ca2b1a8-c85c-4924-bb7b-413d4181e722.vercel.app",
+      "icon": "https://0co.to/images/zara-2.png"
+    }
+  }
+}
